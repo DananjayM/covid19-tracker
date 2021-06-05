@@ -1,0 +1,24 @@
+
+POST {{baseUrl}}/token
+Authorization: Basic {{authorization}}
+//divider btw requests
+
+###
+GET {{baseUrl}}/cases
+Authorization: Bearer {{accessToken}}
+###
+GET {{baseUrl}}/casesSuspected
+Accept:application/json
+Authorization: Bearer {{accessToken}}
+###
+GET {{baseUrl}}/casesConfirmed
+Accept:application/json
+Authorization: Bearer {{accessToken}}
+###
+GET {{baseUrl}}/deaths
+Accept:application/json
+Authorization: Bearer {{accessToken}}
+###
+GET {{baseUrl}}/recovered
+Accept:application/json
+Authorization: Bearer {{accessToken}}
