@@ -1,6 +1,6 @@
 # COVID-19 Tracker
 
-A flutter app that makes use of APIs to effectively track coronavirus statistics
+A flutter app that makes use of a coronavirus API to effectively track COVID-19 statistics
 
 ## Getting Started
 
