@@ -1,6 +1,6 @@
-# covid_api
+# COVID-19 Tracker
 
-A new Flutter project.
+A flutter app that makes use of APIs to effectively track coronavirus statistics
 
 ## Getting Started
 
